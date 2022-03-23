@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stege {'version info'} {
+    stege {'Hello'} {
       steps {
         sh 'mvn --version'
         sh 'mvn clean install'
