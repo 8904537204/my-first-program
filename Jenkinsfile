@@ -1,14 +1,14 @@
-public class ReverseNumberExample1   
-{  
-public static void main(String[] args)   
-{  
-int number = 987654, reverse = 0;  
-while(number != 0)   
-{  
-int remainder = number % 10;  
-reverse = reverse * 10 + remainder;  
-number = number/10;  
-}  
-System.out.println("The reverse of the given number is: " + reverse);  
-}  
-}  
+class Main {
+
+  public static void main(String[] args) {
+    
+    System.out.println("Enter two numbers");
+    int first = 10;
+    int second = 20;
+    
+    System.out.println(first + " " + second);
+
+    int sum = first + second;
+    System.out.println("The sum is: " + sum);
+  }
+}
